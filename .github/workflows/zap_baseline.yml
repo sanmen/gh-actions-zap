@@ -12,8 +12,5 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.4.0
         with:
-          token: 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
           docker_name: 'owasp/zap2docker-stable'
           target: 'https://staging-app.propine.com'
-          rules_file_name: '.zap/rules.tsv'
-          cmd_options: '-a'
