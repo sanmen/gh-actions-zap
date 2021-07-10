@@ -1,5 +1,0 @@
-steps:
-  - name: ZAP Scan
-    uses: zaproxy/action-baseline@v0.4.0
-    with:
-      target: 'staging-app.propine.com'
